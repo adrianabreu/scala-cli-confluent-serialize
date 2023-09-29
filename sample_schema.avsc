@@ -1,0 +1,22 @@
+{
+  "fields": [
+    {
+      "name": "deviceId",
+      "type": "int"
+    },
+    {
+      "name": "value",
+      "type": "double"
+    },
+    {
+      "name": "ts",
+      "type": {
+        "logicalType": "timestamp-millis",
+        "type": "long"
+      }
+    }
+  ],
+  "name": "Measurement",
+  "namespace": "com.adrianabreu.scalakafkalocaltest",
+  "type": "record"
+}
