@@ -9,6 +9,10 @@
       "type": "double"
     },
     {
+      "name": "metricId",
+      "type": "int"
+    },
+    {
       "name": "ts",
       "type": {
         "logicalType": "timestamp-millis",
